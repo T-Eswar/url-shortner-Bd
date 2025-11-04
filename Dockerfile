@@ -5,11 +5,11 @@ FROM eclipse-temurin:23-jdk AS build
 WORKDIR /app
 
 # Copy the Maven wrapper and pom.xml
-#COPY mvnw ./
-#COPY .mvn/ .mvn/
+COPY mvnw ./
+COPY .mvn/ .mvn/
 
 # Ensure the Maven wrapper is executable
-#RUN chmod +x mvnw
+RUN chmod +x mvnw
 
 # Copy the pom.xml and install dependencies
 COPY pom.xml ./
