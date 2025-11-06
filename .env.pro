@@ -5,4 +5,5 @@ DATABASE_USERNAME=neondb_owner
 DATABASE_PASSWORD=npg_MkLxyj7DT5cp
 DATABASE_DIALECT=org.hibernate.dialect.PostgreSQLDialect
 JWT_SECRET=BcHJGgAsSUNEMZqQby3FSgmYgntGeiC9pO6oNwQX94r8Tkv3c9ilY9gsHgLfvXJ4tg6OgfwZcOgv0dTl
-FRONTEND_URL=https://chimerical-nasturtium-516bac.netlify.app
+FRONTEND_URL=remarkable-genie-bc6e17.netlify.app
+
